@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnhanceCV | AI Resume Analyzer</title>
+    <meta name="description" content="AI-powered resume analysis to improve your job fit and streamline your next application.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="navbar">
+            <div class="brand" aria-label="EnhanceCV home">
+                <span class="brand-mark">E</span>
+                <span>EnhanceCV</span>
+            </div>
+
+            <nav class="nav-links" aria-label="Main navigation">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How it works</a>
+                <a href="#results">Results</a>
+            </nav>
+
+            <button class="nav-cta">Get started</button>
+        </header>
+
+        <main class="container">
+            <section class="hero">
+                <div class="hero-copy">
+                    <p class="eyebrow">AI POWERED CAREER OPTIMIZER</p>
+                    <h1>
+                        Turn your resume into a
+                        <span>job-winning story.</span>
+                    </h1>
+                    <p class="hero-text">
+                        Compare your CV with a target role, surface impactful keywords,
+                        reveal missing skills, and get practical suggestions that help you stand out.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#analyze" class="primary-btn">Analyze my resume</a>
+                        <a href="#features" class="secondary-link">See features</a>
+                    </div>
+
+                    <div class="proof-row" aria-label="Customer proof">
+                        <div>
+                            <strong>12k+</strong>
+                            <span>resumes improved</span>
+                        </div>
+                        <div>
+                            <strong>94%</strong>
+                            <span>ATS match boost</span>
+                        </div>
+                        <div>
+                            <strong>4.9/5</strong>
+                            <span>user rating</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual" aria-label="Resume performance dashboard">
+                    <div class="dashboard-card">
+                        <div class="dashboard-top">
+                            <span class="dashboard-label">Resume fit</span>
+                            <span class="status-pill">Live</span>
+                        </div>
+
+                        <div class="score-ring">
+                            <div class="score-ring-inner">
+                                <strong>92%</strong>
+                            </div>
+                        </div>
+
+                        <div class="mini-metrics">
+                            <div>
+                                <span>ATS Match</span>
+                                <strong>92%</strong>
+                            </div>
+                            <div>
+                                <span>Keywords</span>
+                                <strong>38</strong>
+                            </div>
+                        </div>
+
+                        <div class="bars" aria-hidden="true">
+                            <span style="height: 34%;"></span>
+                            <span style="height: 72%;"></span>
+                            <span style="height: 52%;"></span>
+                            <span style="height: 86%;"></span>
+                            <span style="height: 62%;"></span>
+                            <span style="height: 90%;"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="features" class="features">
+                <div class="section-heading">
+                    <p class="eyebrow neutral">why professionals use it</p>
+                    <h2>Everything you need to sharpen your application.</h2>
+                </div>
+
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <div class="feature-icon">✓</div>
+                        <h3>Resume alignment</h3>
+                        <p>Identify the exact skills and keywords your resume already matches to the role.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon">+ </div>
+                        <h3>Gap analysis</h3>
+                        <p>Spot critical missing strengths and see what employers are asking for at a glance.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon">✦</div>
+                        <h3>Actionable guidance</h3>
+                        <p>Turn abstract feedback into precise resume improvements you can implement quickly.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="how-it-works" class="workflow">
+                <div class="section-heading left">
+                    <p class="eyebrow neutral">how it works</p>
+                    <h2>Three simple steps to a stronger CV.</h2>
+                </div>
+
+                <div class="workflow-grid">
+                    <div class="workflow-item">
+                        <span>01</span>
+                        <h3>Upload your resume</h3>
+                        <p>Drop in your PDF and let the system parse your experience, skills, and profile details.</p>
+                    </div>
+                    <div class="workflow-item">
+                        <span>02</span>
+                        <h3>Paste the job description</h3>
+                        <p>Compare your background against the exact role requirements from the target company.</p>
+                    </div>
+                    <div class="workflow-item">
+                        <span>03</span>
+                        <h3>Review and improve</h3>
+                        <p>Use the fit score, keyword gaps, and recommendations to optimize your application.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="analyze" class="analysis-panel">
+                <div class="panel-heading">
+                    <div>
+                        <p class="eyebrow neutral">resume scan</p>
+                        <h2>Analyze your application</h2>
+                    </div>
+                    <span class="panel-badge">ATS-friendly</span>
+                </div>
+
+                <div class="input-section">
+                    <div class="input-card">
+                        <div class="card-header">
+                            <div>
+                                <h2>Resume</h2>
+                                <p>Upload your PDF resume</p>
+                            </div>
+                            <div class="icon">📄</div>
+                        </div>
+
+                        <label class="upload-box" for="resumeFile">
+                            <div class="upload-icon">↑</div>
+                            <h3>Upload Resume</h3>
+                            <p>Drag & drop your PDF here</p>
+                            <span>or click to browse</span>
+                            <input type="file" id="resumeFile" accept=".pdf" hidden>
+                        </label>
+
+                        <div id="fileName" class="file-name"></div>
+                    </div>
+
+                    <div class="input-card">
+                        <div class="card-header">
+                            <div>
+                                <h2>Job Description</h2>
+                                <p>Paste the job description</p>
+                            </div>
+                            <div class="icon">💼</div>
+                        </div>
+
+                        <textarea id="jobDescription" placeholder="Paste the job description here..."></textarea>
+
+                        <div class="character-count">
+                            <span id="charCount">0</span> characters
+                        </div>
+                    </div>
+                </div>
+
+                <div class="analyze-container">
+                    <button id="analyzeBtn" class="analyze-btn">
+                        <span>Analyze Resume</span>
+                        <span>→</span>
+                    </button>
+                </div>
+            </section>
+
+            <section id="results" class="results hidden">
+                <div class="results-header">
+                    <div>
+                        <p class="eyebrow neutral">analysis complete</p>
+                        <h2>Resume analysis</h2>
+                    </div>
+                    <button id="newAnalysis" class="secondary-btn">New analysis</button>
+                </div>
+
+                <div class="score-grid">
+                    <div class="score-card main-score">
+                        <p>Resume match</p>
+                        <div class="score-circle">
+                            <span id="score">0%</span>
+                        </div>
+                        <span class="score-label">Overall match</span>
+                    </div>
+
+                    <div class="score-card">
+                        <p>Matching skills</p>
+                        <h3 id="matchingCount">0</h3>
+                        <span>Skills found in resume</span>
+                    </div>
+
+                    <div class="score-card">
+                        <p>Missing skills</p>
+                        <h3 id="missingCount">0</h3>
+                        <span>Skills to consider</span>
+                    </div>
+                </div>
+
+                <div class="analysis-grid">
+                    <div class="result-card">
+                        <div class="result-title">
+                            <h3>✓ Matching skills</h3>
+                        </div>
+                        <div id="matchingSkills" class="skills-container"></div>
+                    </div>
+
+                    <div class="result-card">
+                        <div class="result-title">
+                            <h3>+ Missing skills</h3>
+                        </div>
+                        <div id="missingSkills" class="skills-container"></div>
+                    </div>
+                </div>
+
+                <div class="suggestions-card">
+                    <div class="result-title">
+                        <h3>💡 Resume suggestions</h3>
+                    </div>
+                    <div id="suggestions"></div>
+                </div>
+            </section>
+
+            <section class="cta-strip">
+                <div>
+                    <p class="eyebrow neutral">ready to apply smarter?</p>
+                    <h2>Upgrade your resume before your next interview.</h2>
+                </div>
+                <a href="#analyze" class="primary-btn">Start the scan</a>
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                EnhanceCV
+                <span>•</span>
+                AI resume optimization for ambitious professionals
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
